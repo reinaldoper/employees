@@ -1,15 +1,15 @@
 // src/app.js
 
 const express = require('express');
-const cors = require('cors');
+/* const cors = require('cors'); */
 /* const morgan = require('morgan'); */
 
 const employee = require('./controllers/employee.controller');
 
 const app = express();
-app.use(cors({
+/* app.use(cors({
   origin: '*'
-}));
+})); */
 
 app.use(express.json());
 /* app.use(morgan('tiny')); */
