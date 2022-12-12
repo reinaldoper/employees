@@ -2,7 +2,7 @@
 
 const express = require('express');
 const cors = require('cors');
-const morgan = require('morgan');
+/* const morgan = require('morgan'); */
 
 const employee = require('./controllers/employee.controller');
 
@@ -12,7 +12,7 @@ app.use(cors({
 }));
 
 app.use(express.json());
-app.use(morgan('tiny'));
+/* app.use(morgan('tiny')); */
 
 app.get('/employees', employee.getAll);
 
