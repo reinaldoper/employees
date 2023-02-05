@@ -11,7 +11,6 @@ app.use(cors({
   origin: '*'
 }));
 app.use(express.json());
-/* app.use(morgan('tiny')); */
 
 app.get('/employees', employee.getAll);
 
