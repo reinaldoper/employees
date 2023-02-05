@@ -1,8 +1,6 @@
 'use strict';
 
 /** @type {import('sequelize-cli').Migration} */
-// src/seeders/[timestamp]-employees.js
-// src/seeders/[timestamp]-employees.js
 
 module.exports = {
   up: async (queryInterface, _Sequelize) => {
